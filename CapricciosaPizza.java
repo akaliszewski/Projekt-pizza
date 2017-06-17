@@ -1,17 +1,18 @@
 //Ta klasa dziedziczy pola z klasy Pizza
-public class WegetarianskaPizza extends Pizza{
-		
+public class CapricciosaPizza extends Pizza{
+	
 	public String nazwa(){
-	return "Pizza Wegetariañska";
+	return "Pizza Capricciosa";
 	}
 	public String skladniki(){
 	return "";
 	}
 			
 	public int ostrosc(){
-	return 0;
+	return 1;
 	}
 	
+	@Override
 	public int cena(){
 	return 0;
 	}
@@ -19,6 +20,3 @@ public class WegetarianskaPizza extends Pizza{
 	return 0;
 	}
 }
-
-
-
